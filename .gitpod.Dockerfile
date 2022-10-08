@@ -1,4 +1,4 @@
-FROM ubuntu:focal
+FROM buildpack-deps:focal
 
 COPY install-packages upgrade-packages /usr/bin/
 
