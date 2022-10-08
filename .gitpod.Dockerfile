@@ -29,6 +29,13 @@ RUN yes | unminimize \
         ssl-cert \
         fish \
         zsh \
+        golang \
+        libbpf-dev \
+        make \
+        clang \
+        llvm \
+        libelf-dev
+
     && locale-gen en_US.UTF-8
 
 ENV LANG=en_US.UTF-8
