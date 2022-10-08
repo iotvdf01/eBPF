@@ -1,4 +1,4 @@
-FROM buildpack-deps:focal
+FROM buildpack-deps:bionic
 
 COPY install-packages upgrade-packages /usr/bin/
 
