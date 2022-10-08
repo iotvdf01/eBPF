@@ -34,7 +34,7 @@ RUN yes | unminimize \
         make \
         clang \
         llvm \
-        libelf-dev
+        libelf-dev \
 
     && locale-gen en_US.UTF-8
 
