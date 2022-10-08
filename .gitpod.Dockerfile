@@ -1,4 +1,4 @@
-FROM buildpack-deps:bionic
+FROM buildpack-deps:jammy
 
 COPY install-packages upgrade-packages /usr/bin/
 
